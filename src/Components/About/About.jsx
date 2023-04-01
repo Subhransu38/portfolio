@@ -1,6 +1,7 @@
 import "./About.css";
-import ME from "../../assets/devimg.png";
 import { FaAward } from "react-icons/fa";
+import CTA from "../Header/CTA";
+
 const About = () => {
   return (
     <section id="about">
@@ -9,11 +10,24 @@ const About = () => {
 
       <div className="container about__container">
         <div className="about__me">
-          <div className="about__me-image">
-            <img src={ME} alt="Subhransu" />
-          </div>
+          <p>
+            🎓 I'm Subhransu Sekhar Rath, and I graduated from the Centurion
+            University of Technology and Management in 2020 with a degree in
+            Computer Science and Engineering. My interests are in Front End
+            Engineering, and I love to create beautiful and performant products
+            with delightful user experiences. 🔪 Outside the world of tech too,
+            I enjoy experimenting with various flavors and ingredients to create
+            delicious and unique dishes. I also like to explore new recipes and
+            techniques through cookbooks and online resources. ✈️ I love
+            traveling too. In 2019, I went on a solo trip to Delhi, Haridwar,
+            and Agra. I also enjoy riding motorcycles and often do 500km+ rides.
+          </p>
+          <CTA
+            link="https://drive.google.com/drive/folders/1wDrawTFLFeowVaagW4Cw3gtrfJNSel1r?usp=sharing"
+            btnText="Certificate"
+          />
         </div>
-        <div className="about__content">
+        <div className="about__content education">
           <div className="about__cards">
             <article className="about__card">
               <FaAward className="about__icon" />
