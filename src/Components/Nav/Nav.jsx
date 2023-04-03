@@ -1,9 +1,8 @@
 import "./Nav.css";
-import { BiHome } from "react-icons/bi";
-import { BiUser } from "react-icons/bi";
-import { AiOutlineExperiment } from "react-icons/ai";
-import { BiBook } from "react-icons/bi";
-import { BiMessageSquareDetail } from "react-icons/bi";
+import { AiOutlineHome } from "react-icons/ai";
+import { FaLaptopCode } from "react-icons/fa";
+import { SlGraduation } from "react-icons/sl";
+import { BiMessageDetail, BiUser } from "react-icons/bi";
 import { useState } from "react";
 import LOGO from "../../assets/logo.png";
 
@@ -22,7 +21,7 @@ const Nav = () => {
             onClick={() => setActiveNav("#")}
             className={activeNav === "#" ? "active" : ""}
           >
-            <BiHome className="icon" />
+            <AiOutlineHome className="icon" />
             <span className="link-text">Home</span>
           </a>
         </li>
@@ -42,7 +41,7 @@ const Nav = () => {
             onClick={() => setActiveNav("#project")}
             className={activeNav === "#project" ? "active" : ""}
           >
-            <AiOutlineExperiment className="icon" />
+            <FaLaptopCode className="icon" />
             <span className="link-text">Project</span>
           </a>
         </li>
@@ -52,7 +51,7 @@ const Nav = () => {
             onClick={() => setActiveNav("#skill")}
             className={activeNav === "#skill" ? "active" : ""}
           >
-            <BiBook className="icon" />
+            <SlGraduation className="icon" />
             <span className="link-text">Skill</span>
           </a>
         </li>
@@ -62,7 +61,7 @@ const Nav = () => {
             onClick={() => setActiveNav("#contact")}
             className={activeNav === "#contact" ? "active" : ""}
           >
-            <BiMessageSquareDetail className="icon" />
+            <BiMessageDetail className="icon" />
             <span className="link-text">Contact</span>
           </a>
         </li>

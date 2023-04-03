@@ -8,11 +8,8 @@ header {
 
 .header__container {
   text-align: center;
-  height: 100%;
-  position: relative;
-  display: grid;
-  grid-template-columns: 40% 55%;
-  gap: 5%;
+  display: flex;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -23,17 +20,6 @@ header {
   display: flex;
   gap: 1.2rem;
   justify-content: center;
-}
-
-/* ========= HEADER SOCAILS ======== */
-
-.header__socials {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 0.8rem;
-  margin: 1rem 1rem 0 0;
-  font-size: 2rem;
 }
 
 /* ========= ME ======== */
@@ -64,6 +50,23 @@ header {
   transform: rotate(0);
 }
 
+.social {
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.social a {
+  font-size: 2rem;
+  color: var(--color-white);
+}
+
+.social a:hover {
+  color: var(--color-primary);
+}
+
 /* ========= SCROLL DOWN ======== */
 
 .down-arrow-container {
@@ -75,28 +78,31 @@ header {
 
 .down-arrow-container a {
   font-size: 2rem;
+  color: var(--color-white);
+}
+
+.down-arrow-container a:hover {
+  color: var(--color-primary);
 }
 
 /* ======== MEDIA QUERIES (MEDIUM DEVICES) =========== */
 
 @media screen and (max-width: 1024px) {
+  .header__container {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
   .header__container-image {
-    width: 300px;
-    height: 300px;
+    margin-bottom: 1.5rem;
   }
 }
 
 /* ======== MEDIA QUERIES (SMALL DEVICES) =========== */
 
 @media screen and (max-width: 600px) {
-  .header__container {
-    flex-direction: column-reverse;
-    justify-content: center;
-    align-items: center;
-  }
-
   .header__container-image {
-    width: 250px;
-    height: 250px;
+    width: 260px;
+    height: 260px;
   }
 }

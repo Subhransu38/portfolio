@@ -1,3 +1,7 @@
+#project {
+  padding-top: 5rem;
+}
+
 .project__container {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -26,7 +30,7 @@
   margin: 1.2rem 0 2rem;
 }
 
-.project__item-cta {
+.project__btn {
   display: flex;
   gap: 1rem;
   margin-bottom: 1rem;
@@ -42,7 +46,7 @@
 
 @media screen and (max-width: 600px) {
   .project__container {
-    grid-template-columns: 1fr;
+    grid-template-columns: 100%;
     gap: 1rem;
   }
 }

@@ -40,7 +40,6 @@ const Project = () => {
     <section id="project">
       <h5>My Recent Work</h5>
       <h2>Projects</h2>
-
       <div className="container project__container">
         {data.map(({ id, image, title, github, demo }) => {
           return (
@@ -49,7 +48,7 @@ const Project = () => {
                 <img src={image} alt={title} />
               </div>
               <h3>{title}</h3>
-              <div className="project__item-cta">
+              <div className="project__btn">
                 <a href={github} className="btn">
                   Github
                 </a>

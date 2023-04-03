@@ -1,5 +1,4 @@
 import "./About.css";
-import CTA from "../Header/CTA";
 
 const EDUCATION = [
   {
@@ -42,19 +41,33 @@ const About = () => {
       <div className="container about__container">
         <div className="about__me">
           <p>
-            I'm Subhransu Sekhar Rath. My interests are in Front End
-            Engineering, and I love to create beautiful and performant products
-            with delightful user. Outside the world of tech too, I enjoy
-            experimenting with various flavors and ingredients to create
-            delicious and unique dishes. I also like to explore new recipes and
-            techniques through cookbooks and online resources.I love traveling
-            too. In 2019, I went on a solo trip to Delhi, Haridwar, and Agra. I
-            also enjoy riding motorcycles and often do 500km+ rides.
+            Hi there! My name is Subhransu Sekhar Rath, and I am excited to
+            share a little bit about myself with you. I was born on 30th May
+            1999, and I have always had a passion for exploring new hobbies and
+            interests. When I'm not working on web development projects, you can
+            find me pursuing a variety of activities such as hiking, playing
+            video games, or trying out new recipes in the kitchen.
           </p>
-          <CTA
-            link="https://drive.google.com/drive/folders/1wDrawTFLFeowVaagW4Cw3gtrfJNSel1r?usp=sharing"
-            btnText="Certificate"
-          />
+          <p>
+            My interest in web development started when I was in college. Since
+            then, I have been hooked on learning new languages and creating
+            projects that push the boundaries of what I thought was possible. I
+            am always looking for ways to improve my skills and stay up-to-date
+            with the latest trends and technologies. This portfolio website is a
+            place where I can showcase some of my projects.
+          </p>
+          <div className="about__btn">
+            <a href="https://github.com" className="btn">
+              Resume
+            </a>
+            <a
+              href="https://github.com"
+              className="btn btn-primary"
+              target="_blank"
+            >
+              Certificate
+            </a>
+          </div>
         </div>
         <div className="education">
           <div className="about__cards">
