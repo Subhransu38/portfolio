@@ -15,48 +15,46 @@ const Skill = () => {
       <h2>My Skill</h2>
 
       <div className="container skill__container">
-        <div className="skill__content">
-          <article className="skill__details">
-            <ImHtmlFive />
-            <h4>HTML</h4>
-            <small className="text-light">Experienced</small>
-          </article>
-          <article className="skill__details">
-            <SiCss3 />
-            <h4>CSS</h4>
-            <small className="text-light">Experienced</small>
-          </article>
-          <article className="skill__details">
-            <SiJavascript />
-            <h4>JavaScript</h4>
-            <small className="text-light">Experienced</small>
-          </article>
-          <article className="skill__details">
-            <FaReact />
-            <h4>React</h4>
-            <small className="text-light">Experienced</small>
-          </article>
-          <article className="skill__details">
-            <SiMysql />
-            <h4>MySQL</h4>
-            <small className="text-light">Experienced</small>
-          </article>
-          <article className="skill__details">
-            <BsGit />
-            <h4>Git</h4>
-            <small className="text-light">Experienced</small>
-          </article>
-          <article className="skill__details">
-            <BsGithub />
-            <h4>Github</h4>
-            <small className="text-light">Experienced</small>
-          </article>
-          <article className="skill__details">
-            <SiJson />
-            <h4>JSON</h4>
-            <small className="text-light">Experienced</small>
-          </article>
-        </div>
+        <article className="skill__details">
+          <ImHtmlFive className="skill__details-icon" />
+          <h4>HTML</h4>
+          <small className="text-light">Experienced</small>
+        </article>
+        <article className="skill__details">
+          <SiCss3 className="skill__details-icon" />
+          <h4>CSS</h4>
+          <small className="text-light">Experienced</small>
+        </article>
+        <article className="skill__details">
+          <SiJavascript className="skill__details-icon" />
+          <h4>JavaScript</h4>
+          <small className="text-light">Experienced</small>
+        </article>
+        <article className="skill__details">
+          <FaReact className="skill__details-icon" />
+          <h4>React</h4>
+          <small className="text-light">Experienced</small>
+        </article>
+        <article className="skill__details">
+          <SiMysql className="skill__details-icon" />
+          <h4>MySQL</h4>
+          <small className="text-light">Experienced</small>
+        </article>
+        <article className="skill__details">
+          <BsGit className="skill__details-icon" />
+          <h4>Git</h4>
+          <small className="text-light">Experienced</small>
+        </article>
+        <article className="skill__details">
+          <BsGithub className="skill__details-icon" />
+          <h4>Github</h4>
+          <small className="text-light">Experienced</small>
+        </article>
+        <article className="skill__details">
+          <SiJson className="skill__details-icon" />
+          <h4>JSON</h4>
+          <small className="text-light">Experienced</small>
+        </article>
       </div>
     </section>
   );

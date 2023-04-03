@@ -5,6 +5,7 @@ import { AiOutlineExperiment } from "react-icons/ai";
 import { BiBook } from "react-icons/bi";
 import { BiMessageSquareDetail } from "react-icons/bi";
 import { useState } from "react";
+import LOGO from "../../assets/logo.png";
 
 const Nav = () => {
   const [activeNav, setActiveNav] = useState("#");
@@ -12,7 +13,7 @@ const Nav = () => {
   return (
     <nav>
       <div className="nav-logo">
-        <h3>SSR</h3>
+        <img src={LOGO} alt="logo" />
       </div>
       <ul className="nav-link-holder">
         <li>

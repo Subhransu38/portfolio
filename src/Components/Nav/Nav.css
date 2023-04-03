@@ -30,6 +30,10 @@ nav {
   backdrop-filter: blur(15px);
 }
 
+.nav-logo img {
+  width: 150px;
+}
+
 .nav-link-holder {
   display: flex;
 }
