@@ -1,5 +1,5 @@
 import "./About.css";
-
+import RESUME from "../../assets/subhransu-resume.pdf";
 const EDUCATION = [
   {
     id: 1,
@@ -57,11 +57,11 @@ const About = () => {
             place where I can showcase some of my projects.
           </p>
           <div className="about__btn">
-            <a href="https://github.com" className="btn">
+            <a href={RESUME} className="btn" download>
               Resume
             </a>
             <a
-              href="https://github.com"
+              href="https://drive.google.com/drive/folders/1wDrawTFLFeowVaagW4Cw3gtrfJNSel1r?usp=sharing"
               className="btn btn-primary"
               target="_blank"
             >
