@@ -10,28 +10,28 @@ const data = [
     image: PROJECT1,
     title: "Personal Portfolio Website",
     github: "https://github.com/Subhransu38/portfolio",
-    demo: "https://github.com/Subhransu38/portfolio"
+    demo: "https://subhransu38.github.io/portfolio/"
   },
   {
     id: 2,
     image: PROJECT2,
     title: "Youtube Landing Page Clone",
-    github: "https://github.com/Subhransu38/portfolio",
-    demo: "https://github.com/Subhransu38/portfolio"
+    github: "https://github.com/Subhransu38/youtube-clone",
+    demo: "https://subhransu38.github.io/youtube-clone/"
   },
   {
     id: 3,
     image: PROJECT3,
     title: "Expense Tracker",
-    github: "https://github.com/Subhransu38/portfolio",
-    demo: "https://github.com/Subhransu38/portfolio"
+    github: "https://github.com/Subhransu38/expense-tracker",
+    demo: "https://subhransu38.github.io/expense-tracker/"
   },
   {
     id: 4,
     image: PROJECT4,
     title: "2048 Game",
-    github: "https://github.com/Subhransu38/portfolio",
-    demo: "https://github.com/Subhransu38/portfolio"
+    github: "https://github.com/Subhransu38/game-2048",
+    demo: "https://subhransu38.github.io/game-2048/"
   }
 ];
 
