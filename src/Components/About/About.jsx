@@ -38,8 +38,8 @@ const About = () => {
       <h5>Get To Know</h5>
       <h2>About Me</h2>
 
-      <div className="container about__container">
-        <div className="about__me">
+      <div className="container about-container">
+        <div className="about-me">
           <p>
             Hi there! My name is Subhransu Sekhar Rath, and I am excited to
             share a little bit about myself with you. I was born on 30th May
@@ -56,7 +56,7 @@ const About = () => {
             with the latest trends and technologies. This portfolio website is a
             place where I can showcase some of my projects.
           </p>
-          <div className="about__btn">
+          <div className="about-btn">
             <a href={RESUME} className="btn" download>
               Resume
             </a>
@@ -70,10 +70,10 @@ const About = () => {
           </div>
         </div>
         <div className="education">
-          <div className="about__cards">
+          <div className="about-cards">
             {EDUCATION.map(({ id, course, school, score, time }) => {
               return (
-                <article key={id} className="about__card">
+                <article key={id} className="about-card">
                   <h2>{course}</h2>
                   <h5>{school}</h5>
                   <p>

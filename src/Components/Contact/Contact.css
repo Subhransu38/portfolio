@@ -1,7 +1,7 @@
 #contact {
   padding-top: 5rem;
 }
-.contact__container {
+.contact-container {
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -9,13 +9,13 @@
   padding-bottom: 2rem;
 }
 
-.contact__options {
+.contact-options {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 1rem;
 }
 
-.contact__option {
+.contact-option {
   background: var(--color-bg-variant);
   padding: 1rem;
   border-radius: 1.2rem;
@@ -24,17 +24,17 @@
   transition: var(--transition);
 }
 
-.contact__option:hover {
+.contact-option:hover {
   background: transparent;
   border-color: var(--color-primary-variant);
 }
 
-.contact__option-icon {
+.contact-option-icon {
   font-size: 1.5rem;
   margin-bottom: 0.5rem;
 }
 
-.contact__option a {
+.contact-option a {
   margin-top: 0.7rem;
   display: inline-block;
   font-size: 0.8rem;
@@ -42,7 +42,7 @@
 
 /* FORM */
 
-.form__map {
+.form-map {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 1rem;
@@ -73,11 +73,11 @@ input[type="number"]::-webkit-outer-spin-button {
   margin: 0;
 }
 
-.contact__map {
+.contact-map {
   padding: 0;
 }
 
-.contact__map iframe {
+.contact-map iframe {
   width: 100%;
   height: 100%;
   border-radius: 0.5rem;
@@ -86,7 +86,7 @@ input[type="number"]::-webkit-outer-spin-button {
 /* ======== MEDIA QUERIES (MEDIUM DEVICES) =========== */
 
 @media screen and (max-width: 1024px) {
-  .contact__options {
+  .contact-options {
     grid-template-columns: 1fr 1fr;
     gap: 1rem;
   }
@@ -95,11 +95,11 @@ input[type="number"]::-webkit-outer-spin-button {
 /* ======== MEDIA QUERIES (SMALL DEVICES) =========== */
 
 @media screen and (max-width: 600px) {
-  .contact__options {
+  .contact-options {
     grid-template-columns: 1fr;
     gap: 1rem;
   }
-  .form__map {
+  .form-map {
     grid-template-columns: 1fr;
     gap: 1rem;
   }

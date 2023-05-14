@@ -7,14 +7,14 @@ footer {
   align-items: center;
 }
 
-.footer__logo img {
+.footer-logo img {
   width: 120px;
 }
 
 /* ======== MEDIA QUERIES (SMALL DEVICES) =========== */
 
 @media screen and (max-width: 600px) {
-  .footer__logo {
+  .footer-logo {
     display: none;
   }
   footer {

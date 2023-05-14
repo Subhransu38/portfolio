@@ -9,8 +9,8 @@ import { BsArrowDownCircleFill } from "react-icons/bs";
 const Header = () => {
   return (
     <header>
-      <div className="container header__container">
-        <div className="header__content">
+      <div className="container header-container">
+        <div className="header-content">
           <h5>Hello I'm</h5>
           <h1>Subhransu Sekhar Rath</h1>
           <h5 className="text-light">Frontend Developer</h5>
@@ -30,8 +30,8 @@ const Header = () => {
           </div>
         </div>
 
-        <div className="header__container-image">
-          <div className="header__image">
+        <div className="header-container-image">
+          <div className="header-image">
             <img src={ME} alt="Subhransu" />
           </div>
         </div>

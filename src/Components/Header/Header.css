@@ -6,7 +6,7 @@ header {
   gap: 4rem;
 }
 
-.header__container {
+.header-container {
   text-align: center;
   display: flex;
   justify-content: space-between;
@@ -24,7 +24,7 @@ header {
 
 /* ========= ME ======== */
 
-.header__container-image {
+.header-container-image {
   width: 400px;
   height: 400px;
   aspect-ratio: 1/1;
@@ -39,14 +39,14 @@ header {
   place-items: center;
 }
 
-.header__image {
+.header-image {
   border-radius: 2rem;
   overflow: hidden;
   transform: rotate(10deg);
   transition: var(--transition);
 }
 
-.header__image:hover {
+.header-image:hover {
   transform: rotate(0);
 }
 
@@ -88,12 +88,12 @@ header {
 /* ======== MEDIA QUERIES (MEDIUM DEVICES) =========== */
 
 @media screen and (max-width: 1024px) {
-  .header__container {
+  .header-container {
     flex-direction: column-reverse;
     justify-content: center;
     align-items: center;
   }
-  .header__container-image {
+  .header-container-image {
     margin-bottom: 1.5rem;
   }
 }
@@ -101,7 +101,7 @@ header {
 /* ======== MEDIA QUERIES (SMALL DEVICES) =========== */
 
 @media screen and (max-width: 600px) {
-  .header__container-image {
+  .header-container-image {
     width: 260px;
     height: 260px;
   }

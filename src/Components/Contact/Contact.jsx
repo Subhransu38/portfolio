@@ -33,37 +33,37 @@ const Contact = () => {
     <section id="contact">
       <h5>Get In Touch</h5>
       <h2>Contact Me</h2>
-      <div className="container contact__container">
-        <div className="contact__options">
-          <article className="contact__option">
-            <BsGithub className="contact__option-icon" />
+      <div className="container contact-container">
+        <div className="contact-options">
+          <article className="contact-option">
+            <BsGithub className="contact-option-icon" />
             <h4>Github</h4>
             <h5>github.com/Subhransu38</h5>
             <a href="https://github.com/Subhransu38" target="_blank">
               View My Github
             </a>
           </article>
-          <article className="contact__option">
-            <IoLogoWhatsapp className="contact__option-icon" />
+          <article className="contact-option">
+            <IoLogoWhatsapp className="contact-option-icon" />
             <h4>Whatsapp</h4>
             <h5>7894655185</h5>
             <a href="https://wa.me/917894655185">Whatsapp Me</a>
           </article>
-          <article className="contact__option">
-            <IoCallSharp className="contact__option-icon" />
+          <article className="contact-option">
+            <IoCallSharp className="contact-option-icon" />
             <h4>Phone</h4>
             <h5>7894655185</h5>
             <a href="tel:+917894655185">Call Me</a>
           </article>
-          <article className="contact__option">
-            <SiGmail className="contact__option-icon" />
+          <article className="contact-option">
+            <SiGmail className="contact-option-icon" />
             <h4>Email</h4>
             <h5>ssrath38@gmail.com</h5>
             <a href="mailto:ssrath38@gmail.com">Send an Email</a>
           </article>
         </div>
-        <div className="form__map">
-          <div className="contact__form">
+        <div className="form-map">
+          <div className="contact-form">
             <form ref={form} onSubmit={sendEmail}>
               <input type="text" name="name" placeholder="Full Name" required />
               <input type="email" name="email" placeholder="Email" required />
@@ -85,7 +85,7 @@ const Contact = () => {
             </form>
           </div>
 
-          <div className="contact__map">
+          <div className="contact-map">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10649.454413672423!2d84.84412970685091!3d19.319265197164356!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a3d50ae2d339c8b%3A0xe4c5fb85dfe27dd0!2sAmbapua%2C%20Bima%20Nagar%2C%20Dura%20Bahadurpetta%2C%20Odisha%20760010!5e0!3m2!1sen!2sin!4v1661249740582!5m2!1sen!2sin"
               style={{ border: "0" }}

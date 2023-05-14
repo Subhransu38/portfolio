@@ -2,13 +2,13 @@
   padding-top: 5rem;
 }
 
-.project__container {
+.project-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 2.5rem;
 }
 
-.project__item {
+.project-item {
   background: var(--color-bg-variant);
   padding: 1.2rem;
   border-radius: 2rem;
@@ -16,21 +16,21 @@
   transition: var(--transition);
 }
 
-.project__item:hover {
+.project-item:hover {
   border-color: var(--color-primary-variant);
   background: transparent;
 }
 
-.project__item-image {
+.project-item-image {
   border-radius: 1.5rem;
   overflow: hidden;
 }
 
-.project__item h3 {
+.project-item h3 {
   margin: 1.2rem 0 2rem;
 }
 
-.project__btn {
+.project-btn {
   display: flex;
   gap: 1rem;
   margin-bottom: 1rem;
@@ -39,13 +39,13 @@
 /* Responsive */
 
 @media screen and (max-width: 1024px) {
-  .project__container {
+  .project-container {
     gap: 1rem;
   }
 }
 
 @media screen and (max-width: 600px) {
-  .project__container {
+  .project-container {
     grid-template-columns: 100%;
     gap: 1rem;
   }

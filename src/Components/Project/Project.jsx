@@ -22,9 +22,9 @@ const data = [
   {
     id: 3,
     image: PROJECT3,
-    title: "Expense Tracker",
-    github: "https://github.com/Subhransu38/expense-tracker",
-    demo: "https://subhransu38.github.io/expense-tracker/"
+    title: "BudgetBuddy",
+    github: "https://github.com/Subhransu38/BudgetBuddy",
+    demo: "https://subhransu38.github.io/BudgetBuddy/"
   },
   {
     id: 4,
@@ -40,15 +40,15 @@ const Project = () => {
     <section id="project">
       <h5>My Recent Work</h5>
       <h2>Projects</h2>
-      <div className="container project__container">
+      <div className="container project-container">
         {data.map(({ id, image, title, github, demo }) => {
           return (
-            <article key={id} className="project__item">
-              <div className="project__item-image">
+            <article key={id} className="project-item">
+              <div className="project-item-image">
                 <img src={image} alt={title} />
               </div>
               <h3>{title}</h3>
-              <div className="project__btn">
+              <div className="project-btn">
                 <a href={github} className="btn">
                   Github
                 </a>
