@@ -21,9 +21,7 @@ const Nav = () => {
             onClick={() => setActiveNav("#")}
             className={activeNav === "#" ? "active" : ""}
           >
-            <span className="icon">
-              <AiOutlineHome style={{ verticalAlign: "middle" }} />
-            </span>
+            <AiOutlineHome className="icon" />
             <span className="link-text">Home</span>
           </a>
         </li>
@@ -33,9 +31,7 @@ const Nav = () => {
             onClick={() => setActiveNav("#about")}
             className={activeNav === "#about" ? "active" : ""}
           >
-            <span className="icon">
-              <BiUser style={{ verticalAlign: "middle" }} />
-            </span>
+            <BiUser className="icon" />
             <span className="link-text">About</span>
           </a>
         </li>
@@ -45,9 +41,7 @@ const Nav = () => {
             onClick={() => setActiveNav("#project")}
             className={activeNav === "#project" ? "active" : ""}
           >
-            <span className="icon">
-              <FaLaptopCode style={{ verticalAlign: "middle" }} />
-            </span>
+            <FaLaptopCode className="icon" />
             <span className="link-text">Project</span>
           </a>
         </li>
@@ -57,9 +51,7 @@ const Nav = () => {
             onClick={() => setActiveNav("#skill")}
             className={activeNav === "#skill" ? "active" : ""}
           >
-            <span className="icon">
-              <SlGraduation style={{ verticalAlign: "middle" }} />
-            </span>
+            <SlGraduation className="icon" />
             <span className="link-text">Skill</span>
           </a>
         </li>
@@ -69,9 +61,7 @@ const Nav = () => {
             onClick={() => setActiveNav("#contact")}
             className={activeNav === "#contact" ? "active" : ""}
           >
-            <span className="icon">
-              <BiMessageDetail style={{ verticalAlign: "middle" }} />
-            </span>
+            <BiMessageDetail className="icon" />
             <span className="link-text">Contact</span>
           </a>
         </li>
